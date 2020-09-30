@@ -35,4 +35,4 @@ do
 	let x++
 done
 echo ${arr[@]}
-echo ${arr[#]}
+printf "%d\n" "${arr[@]}" | sort -nr
